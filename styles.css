@@ -2,41 +2,47 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #121212;
+    color: #e0e0e0;
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 0;
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    padding: 20px 0;
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 nav {
-    background-color: #333;
+    background-color: #1E1E1E;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-nav ul {
+nav ul.tabs {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
-nav ul li {
-    float: left;
+nav ul.tabs li.tab {
+    margin: 0;
 }
 
-nav ul li a {
+nav ul.tabs li a {
     display: block;
-    color: white;
-    text-align: center;
     padding: 14px 20px;
+    color: #e0e0e0;
     text-decoration: none;
+    transition: all 0.3s ease;
 }
 
-nav ul li a:hover {
-    background-color: #111;
+nav ul.tabs li a:hover, nav ul.tabs li a.active {
+    background-color: #333333;
+    color: #ffffff;
+    box-shadow: 0 0 10px #ff5722;
 }
 
 main {
@@ -44,14 +50,14 @@ main {
 }
 
 .news-panel {
-    background-color: white;
+    background-color: #1E1E1E;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .news-panel h2 {
-    color: #333;
+    color: #ffffff;
 }
 
 article {
@@ -59,15 +65,15 @@ article {
 }
 
 article h3 {
-    color: #4CAF50;
+    color: #ff5722;
 }
 
 article p {
-    color: #555;
+    color: #e0e0e0;
 }
 
 article a {
-    color: #4CAF50;
+    color: #ff5722;
     text-decoration: none;
 }
 
@@ -76,11 +82,12 @@ article a:hover {
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #1E1E1E;
+    color: #ffffff;
     text-align: center;
     padding: 10px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
 }
