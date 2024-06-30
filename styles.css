@@ -91,3 +91,43 @@ footer {
     width: 100%;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
 }
+
+.placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1E1E1E;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.placeholder .text-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.placeholder .text-section h3 {
+    color: #ff5722;
+}
+
+.placeholder .text-section p {
+    color: #e0e0e0;
+}
+
+.placeholder .text-section a {
+    color: #ff5722;
+    text-decoration: none;
+}
+
+.placeholder .text-section a:hover {
+    text-decoration: underline;
+}
+
+.placeholder .image-section img {
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
