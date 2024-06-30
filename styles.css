@@ -105,6 +105,7 @@ footer {
 
 .placeholder .text-section p {
     color: #e0e0e0;
+    line-height: 1.6;  
 }
 
 .placeholder .text-section a {
@@ -127,4 +128,9 @@ footer {
     height: auto;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.indent {
+    display: block;
+    padding-left: 20px;  
 }
