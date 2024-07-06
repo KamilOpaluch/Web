@@ -110,18 +110,25 @@ main {
 
 .news-item article h3 {
     color: #ff5722;
+    margin: 0;
+}
+
+.news-item article h3:hover {
+    text-decoration: underline;
 }
 
 .news-item article p {
     color: #e0e0e0;
 }
 
-.news-item article a {
+.news-item article a.read-more {
     color: #ff5722;
     text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
 }
 
-.news-item article a:hover {
+.news-item article a.read-more:hover {
     text-decoration: underline;
 }
 
